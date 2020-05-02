@@ -1,0 +1,18 @@
+.mainpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mainpage img {
+    padding: 30px;
+    max-width: 30%;
+}
+
+.mainpagetext {
+    background-color: blanchedalmond;
+    padding: 30px;
+    font-size: 20px;
+    color: rgb(255, 128, 0);
+}

@@ -1,0 +1,27 @@
+.header {
+    text-align: center;
+    font-size: large;
+    color:rgb(51, 153, 255);
+}
+
+.tab {
+    display: flex;
+    justify-content: space-around;
+    font-size: medium;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color:rgb(0, 38, 77);
+}
+
+.tab button:hover {
+    background-color: rgb(51, 153, 255);
+}
