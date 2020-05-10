@@ -48,6 +48,7 @@ function GuestBook(){
             time: time
         };
         firebase.database().ref('data').push().set(jsonBody)
+        setShouldRender(!shouldRender)
     };
 
     function getComments(){
