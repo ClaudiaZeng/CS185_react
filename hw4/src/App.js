@@ -9,7 +9,7 @@ export class App extends Component {
   constructor(){
     super();
     this.state = {
-      activeTab: 1
+      activeTab: 1,
     }
     this.changeTab = (id) => {
       this.setState({
@@ -19,6 +19,7 @@ export class App extends Component {
   }
 
   render (){
+    document.title = "Portfolio"
     const tabs = [
       {
         id: 1,
@@ -35,6 +36,10 @@ export class App extends Component {
       {
         id: 4,
         title: 'ExternalLinks'
+      },
+      {
+        id: 5,
+        title: 'GuestBook'
       }
     ]
     return (

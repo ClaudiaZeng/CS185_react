@@ -21,7 +21,7 @@ export class LightboxImg extends Component {
                   src={this.props.img.src}
                   width="100%"
                   onClick={this.showDialog}
-                  alt="no image"
+                  alt=""
                 />
                 {this.state.isOpen && (
                     <dialog 
@@ -35,7 +35,7 @@ export class LightboxImg extends Component {
                       width="800"
                       max-height = "100%"
                       onClick={this.showDialog}
-                      alt="no image"
+                      alt=""
                       />
                     </dialog>
                 )}

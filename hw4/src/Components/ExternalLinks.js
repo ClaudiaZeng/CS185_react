@@ -12,15 +12,15 @@ export class ExternalLinks extends Component {
                 </div>
                 <div class="links">
                     <div class="linkchild 1">
-                        <a href={"https://www.youtube.com/watch?v=cqvVL8IurMw"}><img src={require("../Images/hamilton.jpeg")}/></a>
+                        <a href={"https://www.youtube.com/watch?v=cqvVL8IurMw"}><img src={require("../Images/hamilton.jpeg")} alt="no image"/></a>
                         <p>Hamilton original Broadway cast perform "Alexander Hamilton" via Zoom.</p>
                     </div>
                     <div class="linkchild 2">
-                        <a href={"https://www.youtube.com/watch?v=VL0TG_nCqzE"}><img src={require("../Images/Cirque_du_Soleil_Logo.png")}/></a>
+                        <a href={"https://www.youtube.com/watch?v=VL0TG_nCqzE"}><img src={require("../Images/Cirque_du_Soleil_Logo.png")} alt="no image"/></a>
                         <p>Cirque du Soleil 60-minute Special For Covid-19.</p>
                     </div>
                     <div class="linkchild 3">
-                        <a href={"https://www.moma.org/research-and-learning/classes"}><img src={require("../Images/MoMA.png")}/></a>
+                        <a href={"https://www.moma.org/research-and-learning/classes"}><img src={require("../Images/MoMA.png")} alt="no image"/></a>
                         <p>MoMA Online Course offered in Contemporary Art, Fashion as Design, Photography, etc...</p>
                     </div>
                 </div>

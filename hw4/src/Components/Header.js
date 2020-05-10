@@ -3,19 +3,19 @@ import React, {Component} from 'react';
 export class Header extends Component {
     displayHeader = () => {
         var activeTab = this.props.activeTab
-        if(activeTab==1){
+        if(activeTab===1){
             return (
                 <div class="header">
                     <h1>Welcome</h1>
                 </div>
             )
-        } else if (activeTab==2){
+        } else if (activeTab===2){
             return (
                 <div class="header">
                     <h1>Images</h1>
                 </div>
             )
-        } else if (activeTab==3){
+        } else if (activeTab===3){
             return (
                 <div class="header">
                     <h1>Videos</h1>
