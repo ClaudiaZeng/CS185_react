@@ -21,10 +21,22 @@ export class Header extends Component {
                     <h1>Videos</h1>
                 </div>
             )
-        } else {
+        } else if (activeTab===4){
             return (
                 <div class="header">
-                    <h1>ExternalLinks</h1>
+                    <h1>ExternalLink</h1>
+                </div>
+            )
+        } else if (activeTab===5){
+            return (
+                <div class="header">
+                    <h1>GuestBook</h1>
+                </div>
+            )
+        } else if (activeTab===6){
+            return (
+                <div class="header">
+                    <h1>Movies</h1>
                 </div>
             )
         }
