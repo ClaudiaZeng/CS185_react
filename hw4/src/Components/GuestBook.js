@@ -63,7 +63,7 @@ function GuestBook(){
                 comments.push([time,name,description,message])
             }
         }  
-        var commentsdiv = document.querySelector('.comments')
+        var commentsdiv = document.getElementById('comments')
         console.log(commentsdiv)
         comments.forEach(element => {
             var node = document.createElement("div");
@@ -96,7 +96,7 @@ function GuestBook(){
                     <input type="submit"></input>
                 </form>
             </div>
-            <div class="comments">
+            <div id="comments">
                 <h2>Comments</h2>
                 {getComments()}
             </div>

@@ -4,6 +4,7 @@ import Images from './Images'
 import Videos from './Videos'
 import ExternalLinks from './ExternalLinks';
 import GuestBook from './GuestBook';
+import Movies from './Movies'
 
 export class Body extends Component {
     displayContent = () => {
@@ -16,8 +17,10 @@ export class Body extends Component {
             return <Videos/>
         } else if (activeTab===4){
             return <ExternalLinks/>
-        } else{
+        } else if (activeTab===5){
             return <GuestBook/>
+        } else {
+            return <Movies/>
         }
     }
     render() {

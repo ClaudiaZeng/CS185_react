@@ -4,9 +4,20 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    background-color: black;
+    background-color: white;
+    border: rgb(51, 153, 255)
+}
+
+.popup{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .image{
-    width: 50%
+    width: 50%;
+}
+
+.lightboximg:hover{
+    opacity: 0.6;
 }
