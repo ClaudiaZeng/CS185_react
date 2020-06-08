@@ -92,7 +92,90 @@ const data = {
             actorName: "Robin Wright",
             group: "actor"
         },
-
+        {
+            movieId: 5,
+            title: "Death on the Nile",
+            poster: "https://m.media-amazon.com/images/M/MV5BYmQ2MDJlMmMtNWZmYi00NjMyLWFlZjQtNGMzZjAyZGE0ZDQzXkEyXkFqcGdeQXVyMTQ2MTg1Nzk@._V1_SX300.jpg",
+            group: "movie"
+        },
+        {
+            actorId: 14,
+            actorName: "Annette Bening",
+            group: "actor"
+        },
+        {
+            actorId: 15,
+            actorName: "Armie Hammer",
+            group: "actor"
+        },
+        {
+            actorId: 16,
+            actorName: "Kenneth Branagh",
+            group: "actor"
+        },
+        {
+            movieId: 6,
+            title: "20th Century Women",
+            poster: "https://m.media-amazon.com/images/M/MV5BMTkwNDE4NzQwM15BMl5BanBnXkFtZTgwNzQ5Nzg0MDI@._V1_SX300.jpg",
+            group: "movie"
+        },
+        {
+            actorId: 17,
+            actorName: "Elle Fanning",
+            group: "actor"
+        },
+        {
+            actorId: 18,
+            actorName: "Greta Gerwig",
+            group: "actor"
+        },
+        {
+            actorId: 19,
+            actorName: "Billy Crudup",
+            group: "actor"
+        },
+        {
+            movieId: 7,
+            title: "Maleficent",
+            poster: "https://m.media-amazon.com/images/M/MV5BMjAwMzAzMzExOF5BMl5BanBnXkFtZTgwOTcwMDA5MTE@._V1_SX300.jpg",
+            group: "movie"
+        },
+        {
+            actorId: 20,
+            actorName: "Angelina Jolie",
+            group: "actor"
+        },
+        {
+            actorId: 21,
+            actorName: "Sharlto Copley",
+            group: "actor"
+        },
+        {
+            actorId: 22,
+            actorName: "Lesley Manville",
+            group: "actor"
+        },
+        {
+            movieId: 8,
+            title: "Changeling",
+            poster: "https://m.media-amazon.com/images/M/MV5BOTA1Mzg3NjIxNV5BMl5BanBnXkFtZTcwNzU2NTc5MQ@@._V1_SX300.jpg",
+            group: "movie"
+        },
+        {
+            actorId: 23,
+            actorName: "Gattlin Griffith",
+            group: "actor"
+        },
+        {
+            actorId: 24,
+            actorName: "Michelle Gunn",
+            group: "actor"
+        },
+        {
+            actorId: 25,
+            actorName: "Jan Devereaux",
+            group: "actor"
+        }
     ],
     links: [
         {
@@ -158,6 +241,70 @@ const data = {
         {
             source: 16,
             target: 13,
+        },
+        {
+            source: 14,
+            target: 17,
+        },
+        {
+            source: 18,
+            target: 17,
+        },
+        {
+            source: 19,
+            target: 17,
+        },
+        {
+            source: 20,
+            target: 17,
+        },
+        {
+            source: 18,
+            target: 21,
+        },
+        {
+            source: 22,
+            target: 21,
+        },
+        {
+            source: 23,
+            target: 21,
+        },
+        {
+            source: 24,
+            target: 21,
+        },
+        {
+            source: 22,
+            target: 25,
+        },
+        {
+            source: 26,
+            target: 25,
+        },
+        {
+            source: 27,
+            target: 25,
+        },
+        {
+            source: 28,
+            target: 25,
+        },
+        {
+            source: 26,
+            target: 29,
+        },
+        {
+            source: 30,
+            target: 29,
+        },
+        {
+            source: 31,
+            target: 29,
+        },
+        {
+            source: 32,
+            target: 29,
         }
     ]
 }
@@ -278,7 +425,9 @@ export class MovieGraph extends Component {
     render() {
 
         return (
-            <div id="mysvg">
+            <div>
+                <div id="mysvg">
+                </div>
             </div>
         );
     }
