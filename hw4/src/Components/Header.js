@@ -39,6 +39,12 @@ export class Header extends Component {
                     <h1>Movies</h1>
                 </div>
             )
+        } else if (activeTab===7){
+            return (
+                <div class="header">
+                    <h1>MovieGraph</h1>
+                </div>
+            )
         }
     }
     render() {
